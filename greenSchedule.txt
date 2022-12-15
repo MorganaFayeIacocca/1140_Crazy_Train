@@ -1,0 +1,103 @@
+GREEN
+6
+1
+Glenbury Station
+6
+3
+Dormont Station
+6
+5
+Mt Lebanon Station
+6
+7
+Poplar Station
+6
+9
+Castle Shannon Station
+6
+11
+Dormont Station
+6
+13
+Glenbury Station
+6
+15
+Overbrook Station
+6
+17
+Inglewood Station
+6
+19
+Central Station
+6
+21
+Pioneer Station
+6
+23
+Edgebrook Station
+6
+25
+Whited Station
+6
+27
+South Bank Station
+6
+29
+Central Station
+6
+31
+Inglewood Station
+6
+33
+Overbrook Station
+6
+35
+Glenbury Station
+6
+37
+Dormont Station
+6
+39
+Mt Lebanon Station
+6
+41
+Poplar Station
+6
+43
+Castle Shannon Station
+6
+45
+Dormont Station
+6
+47
+Glenbury Station
+6
+49
+Overbrook Station
+6
+51
+Inglewood Station
+6
+53
+Central Station
+6
+55
+Pioneer Station
+6
+57
+Edgebrook Station
+6
+59
+Whited Station
+7
+1
+South Bank Station
+7
+3
+Central Station
+7
+5
+Inglewood Station
+7
+7
+Overbrook Station

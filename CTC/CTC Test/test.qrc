@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="track">
+    <file>blueLine.jpg</file>
+  </qresource>
+</RCC>

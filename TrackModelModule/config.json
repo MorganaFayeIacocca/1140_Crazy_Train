@@ -1,0 +1,131 @@
+{
+      "picture": "TrackModelModule/blueLine.jpg",
+      "blocks": [
+            {
+                  "num": 0,
+                  "length": 0,
+                  "elevation": 0,
+                  "grade": 0,
+                  "speedLimit": 0,
+                  "temperature": 0,
+                  "adjacent": [
+                        [
+                              4,
+                              "connection",
+                              true,
+                              true
+                        ],
+                        [
+                              1,
+                              "switch",
+                              true,
+                              true
+                        ],
+                        [
+                              2,
+                              "switch",
+                              false,
+                              true
+                        ]
+                  ]
+            },
+            {
+                  "num": 1,
+                  "length": 50,
+                  "elevation": 1001,
+                  "grade": 0,
+                  "speedLimit": 50,
+                  "temperature": 68,
+                  "adjacent": [
+                        [
+                              0,
+                              "connection",
+                              true,
+                              true
+                        ],
+                        [
+                              3,
+                              "connection",
+                              true,
+                              false
+                        ]
+                  ]
+            },
+            {
+                  "num": 2,
+                  "length": 50,
+                  "elevation": 1001,
+                  "grade": 0,
+                  "speedLimit": 50,
+                  "temperature": 68,
+                  "adjacent": [
+                        [
+                              0,
+                              "connection",
+                              true, 
+                              false
+                        ],
+                        [
+                              3,
+                              "connection",
+                              true,
+                              true
+                        ]
+                  ]
+            },
+            {
+                  "num": 3,
+                  "length": 50,
+                  "elevation": 1001,
+                  "grade": 0,
+                  "speedLimit": 50,
+                  "temperature": 68,
+                  "adjacent": [
+                        [
+                              4,
+                              "connection",
+                              true,
+                              true
+                        ],
+                        [
+                              1,
+                              "switch",
+                              false,
+                              true
+                        ],
+                        [
+                              2,
+                              "switch",
+                              true,
+                              true
+                        ]
+                  ]
+            },
+            {
+                  "num": 4,
+                  "length": 50,
+                  "elevation": 1001,
+                  "grade": 0,
+                  "speedLimit": 50,
+                  "temperature": 68,
+                  "adjacent": [
+                        [
+                              0,
+                              "connection",
+                              true,
+                              true
+                        ],
+                        [
+                              3,
+                              "connection",
+                              true,
+                              true
+                        ]
+                  ],
+                  "station": {
+                        "name": "My Station",
+                        "side": "both"
+                  }
+            }
+      ]
+}

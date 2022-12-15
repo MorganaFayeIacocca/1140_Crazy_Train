@@ -1,0 +1,1998 @@
+{
+    "picture": "TrackModelModule/redLine.jpg",
+    "blocks": [
+        {
+            "num": 0,
+            "length": 0,
+            "elevation": 0,
+            "grade": 0,
+            "speedLimit": 0,
+            "temperature": 0,
+            "adjacent": [
+                [
+                    9,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 9,
+            "switchLight": "NONE",
+            "beacon": "Block:0"
+        },
+        {
+            "num": 1,
+            "length": 50,
+            "elevation": 0.25,
+            "grade": 0.5,
+            "speedLimit": 40,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    2,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    16,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 2,
+            "switchLight": "RED",
+            "beacon": "Station:Herron Ave:NextStation:Shadyside:Block:1"
+        },
+        {
+            "num": 2,
+            "length": 50,
+            "elevation": 0.75,
+            "grade": 1,
+            "speedLimit": 40,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    1,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    3,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 3,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 3,
+            "length": 50,
+            "elevation": 1.5,
+            "grade": 1.5,
+            "speedLimit": 40,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    2,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    4,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 4,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 4,
+            "length": 50,
+            "elevation": 2.5,
+            "grade": 2,
+            "speedLimit": 40,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    3,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    5,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 5,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 5,
+            "length": 50,
+            "elevation": 3.25,
+            "grade": 1.5,
+            "speedLimit": 40,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    4,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    6,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 6,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 6,
+            "length": 50,
+            "elevation": 3.75,
+            "grade": 1,
+            "speedLimit": 40,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    5,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    7,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 7,
+            "switchLight": "NONE",
+            "beacon": "Station:Shadyside:NextStation:Herron Ave:"
+        },
+        {
+            "num": 7,
+            "length": 75,
+            "elevation": 4.13,
+            "grade": 0.5,
+            "speedLimit": 40,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    6,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    8,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 8,
+            "switchLight": "NONE",
+            "beacon": "Station:Shadyside:Side:Both:",
+            "station": {
+                "name": "Shadyside",
+                "side": "Both"
+            }
+        },
+        {
+            "num": 8,
+            "length": 75,
+            "elevation": 4.13,
+            "grade": 0,
+            "speedLimit": 40,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    7,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    9,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 9,
+            "switchLight": "NONE",
+            "beacon": "Station:Shadyside:NextStation:Herron Ave:"
+        },
+        {
+            "num": 9,
+            "length": 75,
+            "elevation": 4.13,
+            "grade": 0,
+            "speedLimit": 40,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    0,
+                    "switch",
+                    true,
+                    true
+                ],
+                [
+                    8,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    10,
+                    "switch",
+                    false,
+                    true
+                ]
+            ],
+            "defaultConnection": 0,
+            "switchLight": "RED",
+            "beacon": ""
+        },
+        {
+            "num": 10,
+            "length": 75,
+            "elevation": 4.13,
+            "grade": 0,
+            "speedLimit": 40,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    9,
+                    "connection",
+                    true,
+                    false
+                ],
+                [
+                    11,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 11,
+            "switchLight": "RED",
+            "beacon": "Block:10"
+        },
+        {
+            "num": 11,
+            "length": 75,
+            "elevation": 3.75,
+            "grade": -0.5,
+            "speedLimit": 40,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    10,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    12,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 12,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 12,
+            "length": 75,
+            "elevation": 3,
+            "grade": -1,
+            "speedLimit": 40,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    11,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    13,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 13,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 13,
+            "length": 70,
+            "elevation": 1.6,
+            "grade": -2,
+            "speedLimit": 40,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    12,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    14,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 14,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 14,
+            "length": 60,
+            "elevation": 0.85,
+            "grade": -1.25,
+            "speedLimit": 40,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    13,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    15,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 15,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 15,
+            "length": 60,
+            "elevation": 0.25,
+            "grade": -1,
+            "speedLimit": 40,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    14,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    16,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 16,
+            "switchLight": "RED",
+            "beacon": "Station:Herron Ave:NextStation:Shadyside:Block:15"
+        },
+        {
+            "num": 16,
+            "length": 50,
+            "elevation": 0,
+            "grade": -0.5,
+            "speedLimit": 40,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    1,
+                    "switch",
+                    true,
+                    true
+                ],
+                [
+                    15,
+                    "switch",
+                    false,
+                    true
+                ],
+                [
+                    17,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 17,
+            "switchLight": "RED",
+            "beacon": "Station:Herron Ave:Side:Both:",
+            "station": {
+                "name": "Herron Ave",
+                "side": "Both"
+            }
+        },
+        {
+            "num": 17,
+            "length": 200,
+            "elevation": -1,
+            "grade": -0.5,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    16,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    18,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 18,
+            "switchLight": "NONE",
+            "beacon": "Station:Herron Ave:NextStation:Swissville:"
+        },
+        {
+            "num": 18,
+            "length": 400,
+            "elevation": -1.24,
+            "grade": -0.06025,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    17,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    19,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 19,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 19,
+            "length": 400,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    18,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    20,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 20,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 20,
+            "length": 200,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    19,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    21,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 21,
+            "switchLight": "NONE",
+            "beacon": "Station:Swissville:NextStation:Herron Ave:"
+        },
+        {
+            "num": 21,
+            "length": 100,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    20,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    22,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 22,
+            "switchLight": "NONE",
+            "beacon": "Station:Swissville:Side:Both:",
+            "station": {
+                "name": "Swissville",
+                "side": "Both"
+            }
+        },
+        {
+            "num": 22,
+            "length": 100,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    21,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    23,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 23,
+            "switchLight": "NONE",
+            "beacon": "Station:Swissville:NextStation:Penn Station:"
+        },
+        {
+            "num": 23,
+            "length": 100,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    22,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    24,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 24,
+            "switchLight": "NONE",
+            "beacon": "Underground:"
+        },
+        {
+            "num": 24,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    23,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    25,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 25,
+            "switchLight": "NONE",
+            "beacon": "Station:Penn Station:NextStation:Swissville:"
+        },
+        {
+            "num": 25,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    24,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    26,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 26,
+            "switchLight": "NONE",
+            "beacon": "Station:Penn Station:Side:Both:",
+            "station": {
+                "name": "Penn Station",
+                "side": "Both"
+            }
+        },
+        {
+            "num": 26,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    25,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    27,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 27,
+            "switchLight": "NONE",
+            "beacon": "Station:Penn Station:NextStation:Steel Plaza:"
+        },
+        {
+            "num": 27,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    26,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    28,
+                    "switch",
+                    true,
+                    true
+                ],
+                [
+                    76,
+                    "switch",
+                    false,
+                    true
+                ]
+            ],
+            "defaultConnection": 28,
+            "switchLight": "RED",
+            "beacon": ""
+        },
+        {
+            "num": 28,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    27,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    29,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 29,
+            "switchLight": "RED",
+            "beacon": "Block:28"
+        },
+        {
+            "num": 29,
+            "length": 60,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    28,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    30,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 30,
+            "switchLight": "None",
+            "beacon": ""
+        },
+        {
+            "num": 30,
+            "length": 60,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    29,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    31,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 31,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 31,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    30,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    32,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 32,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 32,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    31,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    33,
+                    "connection",
+                    true,
+                    false
+                ]
+            ],
+            "defaultConnection": 33,
+            "switchLight": "RED",
+            "beacon": "Block:32"
+        },
+        {
+            "num": 33,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    32,
+                    "switch",
+                    false,
+                    true
+                ],
+                [
+                    34,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    72,
+                    "switch",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 72,
+            "switchLight": "RED",
+            "beacon": ""
+        },
+        {
+            "num": 34,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    33,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    35,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 35,
+            "switchLight": "NONE",
+            "beacon": "Station:Steel Plaza:NextStation:Penn Station:"
+        },
+        {
+            "num": 35,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    34,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    36,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 36,
+            "switchLight": "NONE",
+            "beacon": "Station:Steel Plaza:Side:Both:",
+            "station": {
+                "name": "Steel Plaza",
+                "side": "Both"
+            }
+        },
+        {
+            "num": 36,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    35,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    37,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 37,
+            "switchLight": "NONE",
+            "beacon": "Station:Steel Plaza:NextStation:First Ave:"
+        },
+        {
+            "num": 37,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    36,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    38,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 38,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 38,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    37,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    39,
+                    "switch",
+                    true,
+                    true
+                ],
+                [
+                    71,
+                    "switch",
+                    false,
+                    true
+                ]
+            ],
+            "defaultConnection": 39,
+            "switchLight": "RED",
+            "beacon": ""
+        },
+        {
+            "num": 39,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    38,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    40,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 40,
+            "switchLight": "RED",
+            "beacon": "Block:39"
+        },
+        {
+            "num": 40,
+            "length": 60,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    39,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    41,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 41,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 41,
+            "length": 60,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    40,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    42,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 42,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 42,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    41,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    43,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 43,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 43,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    42,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    44,
+                    "connection",
+                    true,
+                    false
+                ]
+            ],
+            "defaultConnection": 44,
+            "switchLight": "RED",
+            "beacon": "Block:43"
+        },
+        {
+            "num": 44,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    43,
+                    "switch",
+                    false,
+                    true
+                ],
+                [
+                    45,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    67,
+                    "switch",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 67,
+            "switchLight": "RED",
+            "beacon": "Station:First Ave:NextStation:Steel Plaza:"
+        },
+        {
+            "num": 45,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    44,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    46,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 46,
+            "switchLight": "NONE",
+            "beacon": "Station:First Ave:Side:Both:",
+            "station": {
+                "name": "First Ave",
+                "side": "Both"
+            }
+        },
+        {
+            "num": 46,
+            "length": 75,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    45,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    47,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 47,
+            "switchLight": "NONE",
+            "beacon": "Station:First Ave:NextStation:Station Square:"
+        },
+        {
+            "num": 47,
+            "length": 75,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    46,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    48,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 48,
+            "switchLight": "NONE",
+            "beacon": "Station:Station Square:NextStation:First Ave:Underground:"
+        },
+        {
+            "num": 48,
+            "length": 75,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    47,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    49,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 49,
+            "switchLight": "NONE",
+            "beacon": "Station:Station Square:Side:Both:",
+            "station":{
+                "name": "Station Square",
+                "side": "Both"
+            }
+        },
+        {
+            "num": 49,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 60,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    48,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    50,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 50,
+            "switchLight": "NONE",
+            "beacon": "Station:Station Square:NextStation:South Hills Junction:"
+        },
+        {
+            "num": 50,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 60,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    49,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    51,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 51,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 51,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    50,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    52,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 52,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 52,
+            "length": 43.2,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    51,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    53,
+                    "switch",
+                    true,
+                    true
+                ],
+                [
+                    66,
+                    "switch",
+                    false,
+                    true
+                ]
+            ],
+            "defaultConnection": 53,
+            "switchLight": "RED",
+            "beacon": ""
+        },
+        {
+            "num": 53,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    52,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    54,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 54,
+            "switchLight": "RED",
+            "beacon": "Block:53"
+        },
+        {
+            "num": 54,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    53,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    55,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 55,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 55,
+            "length": 75,
+            "elevation": -0.87,
+            "grade": 0.5,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    54,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    56,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 56,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 56,
+            "length": 75,
+            "elevation": -0.49,
+            "grade": 0.5,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    55,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    57,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 57,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 57,
+            "length": 75,
+            "elevation": -0.12,
+            "grade": 0.5,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    56,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    58,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 58,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 58,
+            "length": 75,
+            "elevation": 0.63,
+            "grade": 1,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    57,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    59,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 59,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 59,
+            "length": 75,
+            "elevation": 1.01,
+            "grade": 0.5,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    58,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    60,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 60,
+            "switchLight": "NONE",
+            "beacon": "Station:South Hills Junction:NextStation:Station Square:"
+        },
+        {
+            "num": 60,
+            "length": 75,
+            "elevation": 1.01,
+            "grade": 0,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    59,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    61,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 61,
+            "switchLight": "NONE",
+            "beacon": "Station:South Hills Junction:Side:Both:",
+            "station": {
+                "name": "South Hills Junction",
+                "side": "Both"
+            }
+        },
+        {
+            "num": 61,
+            "length": 75,
+            "elevation": 0.63,
+            "grade": -0.5,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    60,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    62,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 62,
+            "switchLight": "NONE",
+            "beacon": "Station:South Hills Junction:NextStation:Station Square:"
+        },
+        {
+            "num": 62,
+            "length": 75,
+            "elevation": -0.12,
+            "grade": -1,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    61,
+                    "connenction",
+                    true,
+                    true
+                ],
+                [
+                    63,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 63,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 63,
+            "length": 75,
+            "elevation": -0.87,
+            "grade": -1,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    62,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    64,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 64,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 64,
+            "length": 75,
+            "elevation": -1.24,
+            "grade": -0.5,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    63,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    65,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 65,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 65,
+            "length": 75,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    64,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    66,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 66,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 66,
+            "length": 75,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    52,
+                    "connection",
+                    true,
+                    false
+                ],
+                [
+                    65,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 52,
+            "switchLight": "NONE",
+            "beacon": "Block:66"
+        },
+        {
+            "num": 67,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    44,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    68,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 68,
+            "switchLight": "RED",
+            "beacon": "Block:67"
+        },
+        {
+            "num": 68,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    67,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    69,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 69,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 69,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    68,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    70,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 70,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 70,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    69,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    71,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 71,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 71,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    38,
+                    "connection",
+                    true,
+                    false
+                ],
+                [
+                    70,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 38,
+            "switchLight": "RED",
+            "beacon": "Block:71"
+        },
+        {
+            "num": 72,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    33,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    73,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 73,
+            "switchLight": "RED",
+            "beacon": "Block:72"
+        },
+        {
+            "num": 73,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    72,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    74,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 74,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 74,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    73,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    75,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 75,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 75,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    74,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    76,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 76,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 76,
+            "length": 50,
+            "elevation": -1.24,
+            "grade": 0,
+            "speedLimit": 55,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    27,
+                    "connection",
+                    true,
+                    false
+                ],
+                [
+                    75,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 27,
+            "switchLight": "RED",
+            "beacon": "Block:76"
+        }
+    ]
+}

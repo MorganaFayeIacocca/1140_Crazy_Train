@@ -1,0 +1,3889 @@
+{
+    "picture": "TrackModelModule/greenLine.jpg",
+    "blocks": [
+        {
+            "num": 0,
+            "length": 0,
+            "elevation": 0,
+            "grade": 0,
+            "speedLimit": 0,
+            "temperature": 0,
+            "adjacent": [
+                [
+                    58,
+                    "connection",
+                    true,
+                    false
+                ],
+                [
+                    62,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 62,
+            "switchLight": "NONE",
+            "beacon": "Block:0"
+        },
+        {
+            "num": 1,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0.5,
+            "speedLimit": 45,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    2,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    13,
+                    "connection",
+                    true,
+                    false
+                ]
+            ],
+            "defaultConnection": 13,
+            "switchLight": "RED",
+            "beacon": "Station:Pioneer:NextStation:Unnamed:Block:1"
+        },
+        {
+            "num": 2,
+            "length": 100,
+            "elevation": 1.5,
+            "grade": 1,
+            "speedLimit": 45,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    1,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    3,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 1,
+            "switchLight": "NONE",
+            "beacon": "Station:Pioneer:Side:Left:",
+            "station": {
+                "name": "Pioneer",
+                "side": "Left"
+            }
+        },
+        {
+            "num": 3,
+            "length": 100,
+            "elevation": 3,
+            "grade": 1.5,
+            "speedLimit": 45,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    2,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    4,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 2,
+            "switchLight": "NONE",
+            "beacon": "Station:Pioneer:NextStation:Edgebrook:"
+        },
+        {
+            "num": 4,
+            "length": 100,
+            "elevation": 5,
+            "grade": 2,
+            "speedLimit": 45,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    3,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    5,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 3,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 5,
+            "length": 100,
+            "elevation": 8,
+            "grade": 3,
+            "speedLimit": 45,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    4,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    6,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 4,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 6,
+            "length": 100,
+            "elevation": 12,
+            "grade": 4,
+            "speedLimit": 45,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    5,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    7,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 5,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 7,
+            "length": 100,
+            "elevation": 17,
+            "grade": 5,
+            "speedLimit": 45,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    6,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    8,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 6,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 8,
+            "length": 100,
+            "elevation": 17,
+            "grade": 0,
+            "speedLimit": 45,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    7,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    9,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 7,
+            "switchLight": "NONE",
+            "beacon": "Station:Edgebrook:NextStation:Pioneer:"
+        },
+        {
+            "num": 9,
+            "length": 100,
+            "elevation": 12,
+            "grade": -5,
+            "speedLimit": 45,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    8,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    10,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 8,
+            "switchLight": "NONE",
+            "beacon": "Station:Edgebrook:Side:Left:",
+            "station": {
+                "name": "Edgebrook",
+                "side": "Left"
+            }
+        },
+        {
+            "num": 10,
+            "length": 100,
+            "elevation": 7.5,
+            "grade": -4.5,
+            "speedLimit": 45,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    9,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    11,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 9,
+            "switchLight": "NONE",
+            "beacon": "Station:Edgebrook:NextStation:Unnamed:"
+        },
+        {
+            "num": 11,
+            "length": 100,
+            "elevation": 3.5,
+            "grade": -4,
+            "speedLimit": 45,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    10,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    12,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 10,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 12,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": -3,
+            "speedLimit": 45,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    11,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    13,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 11,
+            "switchLight": "RED",
+            "beacon": "Block:12"
+        },
+        {
+            "num": 13,
+            "length": 150,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    1,
+                    "switch",
+                    false,
+                    true
+                ],
+                [
+                    12,
+                    "switch",
+                    true,
+                    true
+                ],
+                [
+                    14,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 12,
+            "switchLight": "RED",
+            "beacon": ""
+        },
+        {
+            "num": 14,
+            "length": 150,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    13,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    15,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 13,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 15,
+            "length": 150,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    14,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    16,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 14,
+            "switchLight": "NONE",
+            "beacon": "Station:Unnamed:NextStation:Edgebrook:"
+        },
+        {
+            "num": 16,
+            "length": 150,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    15,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    17,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 15,
+            "switchLight": "NONE",
+            "beacon": "Station:Unnamed:Side:Both:",
+            "station": {
+                "name": "Unnamed",
+                "side": "Both"
+            }
+        },
+        {
+            "num": 17,
+            "length": 150,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 60,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    16,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    18,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 16,
+            "switchLight": "NONE",
+            "beacon": "Station:Unnamed:NextStation:Whited:"
+        },
+        {
+            "num": 18,
+            "length": 150,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 60,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    17,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    19,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 17,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 19,
+            "length": 150,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 60,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    18,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    20,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 18,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 20,
+            "length": 150,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 60,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    19,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    21,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 19,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 21,
+            "length": 300,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    20,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    22,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 20,
+            "switchLight": "NONE",
+            "beacon": "Station:Whited:NextStation:Unnamed:"
+        },
+        {
+            "num": 22,
+            "length": 300,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    21,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    23,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 21,
+            "switchLight": "NONE",
+            "beacon": "Station:Whited:Side:Both:",
+            "station": {
+                "name": "Whited",
+                "side": "Both"
+            }
+        },
+        {
+            "num": 23,
+            "length": 300,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    22,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    24,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 22,
+            "switchLight": "NONE",
+            "beacon": "Station:Whited:NextStation:South Bank:"
+        },
+        {
+            "num": 24,
+            "length": 300,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    23,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    25,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 23,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 25,
+            "length": 200,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    24,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    26,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 24,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 26,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    25,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    27,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 25,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 27,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    26,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    28,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 26,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 28,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    27,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    29,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 27,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 29,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    28,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    30,
+                    "switched",
+                    true,
+                    true
+                ],
+                [
+                    150,
+                    "switched",
+                    false,
+                    true
+                ]
+            ],
+            "defaultConnection": 30,
+            "switchLight": "RED",
+            "beacon": ""
+        },
+        {
+            "num": 30,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    29,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    31,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 31,
+            "switchLight": "RED",
+            "beacon": "Station:South Bank:NextStation:Whited:Block:30"
+        },
+        {
+            "num": 31,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    30,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    32,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 32,
+            "switchLight": "NONE",
+            "beacon": "Station:South Bank:Side:Left:",
+            "station": {
+                "name": "South Bank",
+                "side": "Left"
+            }
+        },
+        {
+            "num": 32,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    31,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    33,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 33,
+            "switchLight": "NONE",
+            "beacon": "Station:South Bank:NextStation:Central:"
+        },
+        {
+            "num": 33,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    32,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    34,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 34,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 34,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    33,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    35,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 35,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 35,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    34,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    36,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 36,
+            "switchLight": "NONE",
+            "beacon": "Underground:"
+        },
+        {
+            "num": 36,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    35,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    37,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 37,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 37,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    36,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    38,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 38,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 38,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    37,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    39,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 39,
+            "switchLight": "NONE",
+            "beacon": "Station:Central:NextStation:South Bank:"
+        },
+        {
+            "num": 39,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    38,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    40,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 40,
+            "switchLight": "NONE",
+            "beacon": "Station:Central:Side:Right:",
+            "station": {
+                "name": "Central",
+                "side": "Right"
+            }
+        },
+        {
+            "num": 40,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    39,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    41,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 41,
+            "switchLight": "NONE",
+            "beacon": "Station:Central:NextStation:Inglewood:"
+        },
+        {
+            "num": 41,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    40,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    42,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 42,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 42,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    41,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    43,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 43,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 43,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    42,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    44,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 44,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 44,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    43,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    45,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 45,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 45,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    44,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    46,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 46,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 46,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    45,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    47,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 47,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 47,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    46,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    48,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 48,
+            "switchLight": "NONE",
+            "beacon": "Station:Inglewood:NextStation:Central:"
+        },
+        {
+            "num": 48,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    47,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    49,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 49,
+            "switchLight": "NONE",
+            "beacon": "Station:Inglewood:Side:Right:",
+            "station":{
+                "name": "Inglewood",
+                "side": "Right"
+            }
+        },
+        {
+            "num": 49,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    48,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    50,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 50,
+            "switchLight": "NONE",
+            "beacon": "Station:Inglewood:NextStation:Overbrook:"
+        },
+        {
+            "num": 50,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    49,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    51,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 51,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 51,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    50,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    52,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 52,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 52,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    51,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    53,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 53,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 53,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    52,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    54,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 54,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 54,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    53,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    55,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 55,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 55,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    54,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    56,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 56,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 56,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    55,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    57,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 57,
+            "switchLight": "NONE",
+            "beacon": "Station:Overbrook:NextStation:Inglewood:"
+        },
+        {
+            "num": 57,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    56,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    58,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 58,
+            "switchLight": "NONE",
+            "beacon": "Station:Overbrook:Side:Right:",
+            "station": {
+                "name": "Overbrook",
+                "side": "Right"
+            }
+        },
+        {
+            "num": 58,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    0,
+                    "switch",
+                    false,
+                    true
+                ],
+                [
+                    57,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    59,
+                    "switch",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 59,
+            "switchLight": "RED",
+            "beacon": "Station:Overbrook:NextStation:Glenbury:Underground:"
+        },
+        {
+            "num": 59,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    58,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    60,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 60,
+            "switchLight": "RED",
+            "beacon": "Block:59"
+        },
+        {
+            "num": 60,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    59,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    61,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 61,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 61,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    60,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    62,
+                    "connection",
+                    true,
+                    false
+                ]
+            ],
+            "defaultConnection": 62,
+            "switchLight": "RED",
+            "beacon": "Block:61"
+        },
+        {
+            "num": 62,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    0,
+                    "switch",
+                    true,
+                    true
+                ],
+                [
+                    61,
+                    "switch",
+                    false,
+                    true
+                ],
+                [
+                    63,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 0,
+            "switchLight": "RED",
+            "beacon": ""
+        },
+        {
+            "num": 63,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    62,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    64,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 64,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 64,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    63,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    65,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 65,
+            "switchLight": "NONE",
+            "beacon": "Station:Glenbury:NextStation:Overbrook:"
+        },
+        {
+            "num": 65,
+            "length": 200,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    64,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    66,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 66,
+            "switchLight": "NONE",
+            "beacon": "Station:Glenbury:Side:Right:",
+            "station": {
+                "name": "Glenbury",
+                "side": "Right"
+            }
+        },
+        {
+            "num": 66,
+            "length": 200,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    65,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    67,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 67,
+            "switchLight": "NONE",
+            "beacon": "Station:Glenbury:NextStation:Dormont:"
+        },
+        {
+            "num": 67,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 40,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    66,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    68,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 68,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 68,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 40,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    67,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    69,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 69,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 69,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 40,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    68,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    70,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 70,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 70,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 40,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    69,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    71,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 71,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 71,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 40,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    70,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    72,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 72,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 72,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 40,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    71,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    73,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 73,
+            "switchLight": "NONE",
+            "beacon": "Station:Dormont:NextStation:Glenbury:"
+        },
+        {
+            "num": 73,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 40,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    72,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    74,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 74,
+            "switchLight": "NONE",
+            "beacon": "Station:Dormont:Side:Right:",
+            "station": {
+                "name": "Dormont",
+                "side": "Right"
+            }
+        },
+        {
+            "num": 74,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 40,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    73,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    75,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 75,
+            "switchLight": "NONE",
+            "beacon": "Station:Dormont:NextStation:Mt Lebanon:"
+        },
+        {
+            "num": 75,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 40,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    74,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    76,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 76,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 76,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 40,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    75,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    77,
+                    "connection",
+                    true,
+                    false
+                ]
+            ],
+            "defaultConnection": 77,
+            "switchLight": "RED",
+            "beacon": "Station:Mt Lebanon:NextStation:Dormont:Block:76"
+        },
+        {
+            "num": 77,
+            "length": 300,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    76,
+                    "switch",
+                    false,
+                    true
+                ],
+                [
+                    78,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    101,
+                    "switch",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 101,
+            "switchLight": "RED",
+            "beacon": "Station:Mt Lebanon:Side:Both:",
+            "station": {
+                "name": "Mt Lebanon",
+                "side": "Both"
+            }
+        },
+        {
+            "num": 78,
+            "length": 300,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    77,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    79,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 77,
+            "switchLight": "NONE",
+            "beacon": "Station:Mt Lebanon:NextStation:Poplar:"
+        },
+        {
+            "num": 79,
+            "length": 300,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    78,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    80,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 78,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 80,
+            "length": 300,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    79,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    81,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 79,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 81,
+            "length": 300,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    80,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    82,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 80,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 82,
+            "length": 300,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    81,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    83,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 81,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 83,
+            "length": 300,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    82,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    84,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 82,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 84,
+            "length": 300,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    83,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    85,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 83,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 85,
+            "length": 300,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 70,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    84,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    86,
+                    "switch",
+                    true,
+                    true
+                ],
+                [
+                    100,
+                    "switch",
+                    false,
+                    true
+                ]
+            ],
+            "defaultConnection": 86,
+            "switchLight": "RED",
+            "beacon": ""
+        },
+        {
+            "num": 86,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 25,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    85,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    87,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 87,
+            "switchLight": "RED",
+            "beacon": "Block:86"
+        },
+        {
+            "num": 87,
+            "length": 86.6,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 25,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    86,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    88,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 88,
+            "switchLight": "NONE",
+            "beacon": "Station:Poplar:NextStation:Mt Lebanon:"
+        },
+        {
+            "num": 88,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 25,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    87,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    89,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 89,
+            "switchLight": "NONE",
+            "beacon": "Station:Poplar:Side:Left:",
+            "station": {
+                "name": "Poplar",
+                "side": "Left"
+            }
+        },
+        {
+            "num": 89,
+            "length": 75,
+            "elevation": 0.125,
+            "grade": -0.5,
+            "speedLimit": 25,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    88,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    90,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 90,
+            "switchLight": "NONE",
+            "beacon": "Station:Poplar:NextStation:Castle Shannon:"
+        },
+        {
+            "num": 90,
+            "length": 75,
+            "elevation": -0.625,
+            "grade": -1,
+            "speedLimit": 25,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    89,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    91,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 91,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 91,
+            "length": 75,
+            "elevation": -2.125,
+            "grade": -2,
+            "speedLimit": 25,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    90,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    92,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 92,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 92,
+            "length": 75,
+            "elevation": -2.125,
+            "grade": 0,
+            "speedLimit": 25,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    91,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    93,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 93,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 93,
+            "length": 75,
+            "elevation": -0.625,
+            "grade": 2,
+            "speedLimit": 25,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    92,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    94,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 94,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 94,
+            "length": 75,
+            "elevation": 0.125,
+            "grade": 1,
+            "speedLimit": 25,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    93,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    95,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 95,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 95,
+            "length": 75,
+            "elevation": 0.5,
+            "grade": 0.5,
+            "speedLimit": 25,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    94,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    96,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 96,
+            "switchLight": "NONE",
+            "beacon": "Station:Castle Shannon:NextStation:Poplar:"
+        },
+        {
+            "num": 96,
+            "length": 75,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 25,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    95,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    97,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 97,
+            "switchLight": "NONE",
+            "beacon": "Station:Castle Shannon:Side:Left:",
+            "station": {
+                "name": "Castle Shannon",
+                "side": "Left"
+            }
+        },
+        {
+            "num": 97,
+            "length": 75,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 25,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    96,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    98,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 98,
+            "switchLight": "NONE",
+            "beacon": "Station:Castle Shannon:NextStation:Mt Lebanon:"
+        },
+        {
+            "num": 98,
+            "length": 75,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 25,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    97,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    99,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 99,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 99,
+            "length": 75,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 25,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    98,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    100,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 100,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 100,
+            "length": 75,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 25,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    85,
+                    "connection",
+                    true,
+                    false
+                ],
+                [
+                    99,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 85,
+            "switchLight": "RED",
+            "beacon": "Block:100"
+        },
+        {
+            "num": 101,
+            "length": 35,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 26,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    77,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    102,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 102,
+            "switchLight": "RED",
+            "beacon": "Station:Mt Lebanon:NextStation:Dormont:Block:101"
+        },
+        {
+            "num": 102,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 28,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    101,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    103,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 103,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 103,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 28,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    102,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    104,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 104,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 104,
+            "length": 80,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 28,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    103,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    105,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 105,
+            "switchLight": "NONE",
+            "beacon": "Station:Dormont:NextStation:Mt Lebanon:"
+        },
+        {
+            "num": 105,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 28,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    104,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    106,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 106,
+            "switchLight": "NONE",
+            "beacon": "Station:Dormont:Side:Right:",
+            "station": {
+                "name": "Dormont",
+                "side": "Right"
+            }
+        },
+        {
+            "num": 106,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 28,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    105,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    107,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 107,
+            "switchLight": "NONE",
+            "beacon": "Station:Dormont:NextStation:Glenbury:"
+        },
+        {
+            "num": 107,
+            "length": 90,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 28,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    106,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    108,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 108,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 108,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 28,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    107,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    109,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 109,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 109,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 28,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    108,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    110,
+                    "connenction",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 110,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 110,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    109,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    111,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 111,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 111,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    110,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    112,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 112,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 112,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    111,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    113,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 113,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 113,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    112,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    114,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 114,
+            "switchLight": "NONE",
+            "beacon": "Station:Glenbury:NextStation:Dormont:"
+        },
+        {
+            "num": 114,
+            "length": 162,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    113,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    115,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 115,
+            "switchLight": "NONE",
+            "beacon": "Station:Glenbury:Side:Right:",
+            "station": {
+                "name": "Glenbury",
+                "side": "Right"
+            }
+        },
+        {
+            "num": 115,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    114,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    116,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 116,
+            "switchLight": "NONE",
+            "beacon": "Station:Glenbury:NextStation:Overbrook:"
+        },
+        {
+            "num": 116,
+            "length": 100,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 30,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    115,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    117,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 117,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 117,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 15,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    116,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    118,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 118,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 118,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 15,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    117,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    119,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 119,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 119,
+            "length": 40,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 15,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    118,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    120,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 120,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 120,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 15,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    119,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    121,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 121,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 121,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 15,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    120,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    122,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 122,
+            "switchLight": "NONE",
+            "beacon": "Underground:"
+        },
+        {
+            "num": 122,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    121,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    123,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 123,
+            "switchLight": "NONE",
+            "beacon": "Station:Overbrook:NextStation:Glenbury:"
+        },
+        {
+            "num": 123,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    122,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    124,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 124,
+            "switchLight": "NONE",
+            "beacon": "Station:Overbrook:Side:Right:",
+            "station": {
+                "name": "Overbrook",
+                "side": "Right"
+            }
+        },
+        {
+            "num": 124,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    123,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    125,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 125,
+            "switchLight": "NONE",
+            "beacon": "Station:Overbrook:NextStation:Inglewood:"
+        },
+        {
+            "num": 125,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    124,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    126,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 126,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 126,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    125,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    127,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 127,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 127,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    126,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    128,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 128,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 128,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    127,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    129,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 129,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 129,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    128,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    130,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 130,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 130,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    129,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    131,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 131,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 131,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    130,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    132,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 132,
+            "switchLight": "NONE",
+            "beacon": "Station:Inglewood:NextStation:Overbrook:"
+        },
+        {
+            "num": 132,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    131,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    133,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 133,
+            "switchLight": "NONE",
+            "beacon": "Station:Inglewood:Side:Left:",
+            "station":
+            {
+                "name": "Inglewood",
+                "side": "Left"
+            }
+        },
+        {
+            "num": 133,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    132,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    134,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 134,
+            "switchLight": "NONE",
+            "beacon": "Station:Inglewood:NextStation:Central:"
+        },
+        {
+            "num": 134,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    133,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    135,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 135,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 135,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    134,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    136,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 136,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 136,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    135,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    137,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 137,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 137,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    136,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    138,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 138,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 138,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    137,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    139,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 139,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 139,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    138,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    140,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 140,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 140,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    139,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    141,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 141,
+            "switchLight": "NONE",
+            "beacon": "Station:Central:NextStation:Inglewood:"
+        },
+        {
+            "num": 141,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    140,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    142,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 142,
+            "switchLight": "NONE",
+            "beacon": "Station:Central:Side:Right:",
+            "station": {
+                "name": "Central",
+                "side": "Right"
+            }
+        },
+        {
+            "num": 142,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    141,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    143,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 143,
+            "switchLight": "NONE",
+            "beacon": "Station:Central:NextStation:Whited"
+        },
+        {
+            "num": 143,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    142,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    144,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 144,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 144,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    143,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    145,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 145,
+            "switchLight": "NONE",
+            "beacon": "Underground:"
+        },
+        {
+            "num": 145,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    144,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    146,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 146,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 146,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    145,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    147,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 147,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 147,
+            "length": 50,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    146,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    148,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 148,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 148,
+            "length": 184,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    147,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    149,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 149,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 149,
+            "length": 40,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    148,
+                    "connection",
+                    true,
+                    true
+                ],
+                [
+                    150,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 150,
+            "switchLight": "NONE",
+            "beacon": ""
+        },
+        {
+            "num": 150,
+            "length": 35,
+            "elevation": 0.5,
+            "grade": 0,
+            "speedLimit": 20,
+            "temperature": 40,
+            "adjacent": [
+                [
+                    29,
+                    "connection",
+                    true,
+                    false
+                ],
+                [
+                    149,
+                    "connection",
+                    true,
+                    true
+                ]
+            ],
+            "defaultConnection": 149,
+            "switchLight": "RED",
+            "beacon": "Block:150"
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+RED
+6
+1
+Shadyside Station
+6
+3
+Herron Ave Station
+6
+5
+Swissville Station
+6
+7
+Penn Station
+6
+9
+Steel Plaza Station
+6
+11
+First Ave Station
+6
+13
+Station Square Station
+6
+15
+South Hills Junction Station
+6
+17
+Station Square Station
+6
+19
+First Ave Station
+6
+21
+Steel Plaza Station
+6
+23
+Penn Station
+6
+25
+Swissville Station
+6
+27
+Herron Ave Station
+6
+29
+Shadyside Station
+6
+31
+Herron Ave Station
+6
+33
+Swissville Station
+6
+35
+Penn Station
+6
+37
+Steel Plaza Station
+6
+39
+First Ave Station
+6
+41
+Station Square Station
+6
+43
+South Hills Junction Station
+6
+45
+Station Square Station
+6
+47
+First Ave Station
+6
+49
+Steel Plaza Station
+6
+51
+Penn Station
+6
+53
+Swissville Station
+6
+55
+Herron Ave Station
+6
+57
+Shadyside Station
+6
+59
+Herron Ave Station
+7
+1
+Swissville Station
+7
+3
+Penn Station
+7
+5
+Steel Plaza Station
+7
+7
+First Ave Station

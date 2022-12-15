@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>blueLine.jpg</file>
+  </qresource>
+</RCC>

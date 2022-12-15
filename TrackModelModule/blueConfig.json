@@ -1,0 +1,353 @@
+{
+      "picture": "TrackModelModule/blueLine.jpg",
+      "blocks": [
+            {
+                  "num": 0,
+                  "length": 0,
+                  "elevation": 0,
+                  "grade": 0,
+                  "speedLimit": 0,
+                  "temperature": 0,
+                  "adjacent": [
+                        [
+                              1,
+                              "connection",
+                              true,
+                              true
+                        ]
+                  ]
+            },
+            {
+                  "num": 1,
+                  "length": 50,
+                  "elevation": 0,
+                  "grade": 0,
+                  "speedLimit": 50,
+                  "temperature": 68,
+                  "adjacent": [
+                        [
+                              0,
+                              "connection",
+                              true,
+                              true
+                        ],
+                        [
+                              2,
+                              "connection",
+                              true,
+                              true
+                        ]
+                  ]
+            },
+            {
+                  "num": 2,
+                  "length": 50,
+                  "elevation": 0,
+                  "grade": 0,
+                  "speedLimit": 50,
+                  "temperature": 68,
+                  "adjacent": [
+                        [
+                              1,
+                              "connection",
+                              true,
+                              true
+                        ],
+                        [
+                              3,
+                              "connection",
+                              true,
+                              true
+                        ]
+                  ]
+            },
+            {
+                  "num": 3,
+                  "length": 50,
+                  "elevation": 0,
+                  "grade": 0,
+                  "speedLimit": 50,
+                  "temperature": 68,
+                  "adjacent": [
+                        [
+                              2,
+                              "connection",
+                              true,
+                              true
+                        ],
+                        [
+                              4,
+                              "connection",
+                              true,
+                              true
+                        ]
+                  ]
+            },
+            {
+                  "num": 4,
+                  "length": 50,
+                  "elevation": 0,
+                  "grade": 0,
+                  "speedLimit": 50,
+                  "temperature": 68,
+                  "adjacent": [
+                        [
+                              3,
+                              "connection",
+                              true,
+                              true
+                        ],
+                        [
+                              5,
+                              "connection",
+                              true,
+                              true
+                        ]
+                  ]
+            },
+            {
+                  "num": 5,
+                  "length": 50,
+                  "elevation": 0,
+                  "grade": 0,
+                  "speedLimit": 50,
+                  "temperature": 68,
+                  "adjacent": [
+                        [
+                              4,
+                              "connection",
+                              true,
+                              true
+                        ],
+                        [
+                              6,
+                              "switch",
+                              false,
+                              true
+                        ],
+                        [
+                              11,
+                              "switch",
+                              true,
+                              true
+                        ]
+                  ]
+            },
+            {
+                  "num": 6,
+                  "length": 50,
+                  "elevation": 0,
+                  "grade": 0,
+                  "speedLimit": 50,
+                  "temperature": 68,
+                  "adjacent": [
+                        [
+                              5,
+                              "connection",
+                              true,
+                              false
+                        ],
+                        [
+                              7,
+                              "connection",
+                              true,
+                              true
+                        ]
+                  ]
+            },
+            {
+                  "num": 7,
+                  "length": 50,
+                  "elevation": 0,
+                  "grade": 0,
+                  "speedLimit": 50,
+                  "temperature": 68,
+                  "adjacent": [
+                        [
+                              6,
+                              "connection",
+                              true,
+                              true
+                        ],
+                        [
+                              8,
+                              "connection",
+                              true,
+                              true
+                        ]
+                  ]
+            },
+            {
+                  "num": 8,
+                  "length": 50,
+                  "elevation": 0,
+                  "grade": 0,
+                  "speedLimit": 50,
+                  "temperature": 68,
+                  "adjacent": [
+                        [
+                              7,
+                              "connection",
+                              true,
+                              true
+                        ],
+                        [
+                              9,
+                              "connection",
+                              true,
+                              true
+                        ]
+                  ]
+            },
+            {
+                  "num": 9,
+                  "length": 50,
+                  "elevation": 0,
+                  "grade": 0,
+                  "speedLimit": 50,
+                  "temperature": 68,
+                  "adjacent": [
+                        [
+                              8,
+                              "connection",
+                              true,
+                              true
+                        ],
+                        [
+                              10,
+                              "connection",
+                              true,
+                              true
+                        ]
+                  ]
+            },
+            {
+                  "num": 10,
+                  "length": 50,
+                  "elevation": 0,
+                  "grade": 0,
+                  "speedLimit": 50,
+                  "temperature": 68,
+                  "adjacent": [
+                        [
+                              9,
+                              "connection",
+                              true,
+                              true
+                        ]
+                  ],
+                  "station": {
+                        "name": "Station B",
+                        "side": "both"
+                  }
+            },
+            {
+                  "num": 11,
+                  "length": 50,
+                  "elevation": 0,
+                  "grade": 0,
+                  "speedLimit": 50,
+                  "temperature": 68,
+                  "adjacent": [
+                        [
+                              5,
+                              "connection",
+                              true,
+                              true
+                        ],
+                        [
+                              12,
+                              "connection",
+                              true,
+                              true
+                        ]
+                  ]
+            },
+            {
+                  "num": 12,
+                  "length": 50,
+                  "elevation": 0,
+                  "grade": 0,
+                  "speedLimit": 50,
+                  "temperature": 68,
+                  "adjacent": [
+                        [
+                              11,
+                              "connection",
+                              true,
+                              true
+                        ],
+                        [
+                              13,
+                              "connection",
+                              true,
+                              true
+                        ]
+                  ]
+            },
+            {
+                  "num": 13,
+                  "length": 50,
+                  "elevation": 0,
+                  "grade": 0,
+                  "speedLimit": 50,
+                  "temperature": 68,
+                  "adjacent": [
+                        [
+                              12,
+                              "connection",
+                              true,
+                              true
+                        ],
+                        [
+                              14,
+                              "connection",
+                              true,
+                              true
+                        ]
+                  ]
+            },
+            {
+                  "num": 14,
+                  "length": 50,
+                  "elevation": 0,
+                  "grade": 0,
+                  "speedLimit": 50,
+                  "temperature": 68,
+                  "adjacent": [
+                        [
+                              13,
+                              "connection",
+                              true,
+                              true
+                        ],
+                        [
+                              15,
+                              "connection",
+                              true,
+                              true
+                        ]
+                  ]
+            },
+            {
+                  "num": 15,
+                  "length": 50,
+                  "elevation": 0,
+                  "grade": 0,
+                  "speedLimit": 50,
+                  "temperature": 68,
+                  "adjacent": [
+                        [
+                              14,
+                              "connection",
+                              true,
+                              true
+                        ]
+                  ],
+                  "station": {
+                        "name": "Station C",
+                        "side": "both"
+                  }
+            }            
+      ]
+}
